@@ -20,19 +20,34 @@ def check_existing_email(email):
 
     try:
         response = requests.get(url, headers=headers)
-        response.raise_for_status()  # Raise exception for non-200 status codes
 
         # Check for successful response (200) indicating existing contact
-        if response.json():
-            print(f"Email: {email} already exists.")
-            return True  # Indicate email exists
-        else:
+        if response.status_code == 200:
+            if response.json():
+                print(f"Email: {email} already exists.")
+                return True  # Indicate email exists
+            else:
+                # Handle unexpected empty response for 200 (not necessarily an error)
+                print(f"Unexpected empty response for email: {email}")
+                return False  # Indicate check failed, consider logging the issue
+
+        # Check for specific error codes
+        elif response.status_code == 400:
+            print(f"Error checking email: {email}. Bad Request (400).")
+            return False  # Indicate check failed due to bad request
+
+        elif response.status_code == 404:
             print(f"Email: {email} not found. Creating new contact...")
-            return False  # Indicate email doesn't exist
+            return False  # Indicate email not found (new contact needed)
+
+        # Handle other unexpected status codes
+        else:
+            print(f"Error checking email: {email}. Unexpected status code: {response.status_code}")
+            return False  # Indicate check failed due to unexpected error
 
     except requests.exceptions.RequestException as e:
         print(f"Error checking email: {email}. Error: {e}")
-        return False  # Assume failure for safety
+        return False  # Indicate check failed due to request exception
 
 def process_csv_data(csv_file):
     existing_emails = set()  # Create a set to store existing emails

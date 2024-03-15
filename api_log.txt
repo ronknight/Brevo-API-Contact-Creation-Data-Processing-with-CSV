@@ -1,46 +1,24 @@
-Email: rona+9@4sgm.com
-Data: {"email": "rona+9@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2689}
+Email: rona+1@4sgm.com
+Data: {"email": "rona+1@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2720}
 ====================
-Email: rona+12@4sgm.com
-Data: {"email": "rona+12@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2690}
+Email: rona+2@4sgm.com
+Data: {"email": "rona+2@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2721}
 ====================
-Email: rona+11@4sgm.com
-Data: {"email": "rona+11@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2691}
+Email: rona+3@4sgm.com
+Data: {"email": "rona+3@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2722}
 ====================
-Email: rona+13@4sgm.com
-Data: {"email": "rona+13@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2692}
+Email: rona+4@4sgm.com
+Data: {"email": "rona+4@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2723}
 ====================
-Email: rona+14@4sgm.com
-Data: {"email": "rona+14@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2693}
+Email: rona+5@4sgm.com
+Data: {"email": "rona+5@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2724}
 ====================
-Email: rona+15@4sgm.com
-Data: {"email": "rona+15@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2694}
-====================
-Email: rona+16@4sgm.com
-Data: {"email": "rona+16@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2695}
-====================
-Email: rona+17@4sgm.com
-Data: {"email": "rona+17@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2696}
-====================
-Email: rona+18@4sgm.com
-Data: {"email": "rona+18@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2697}
-====================
-Batch: 123 | Timestamp: 2024-03-15 19:39:40
-API request successful for email: rona+19@4sgm.com
-====================
-Batch: 123 | Timestamp: 2024-03-15 19:39:40
-API request successful for email: rona+20@4sgm.com
-====================
-Email: rona+38@4sgm.com
-Data: {"email": "rona+38@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2717}
+Email: rona+6@4sgm.com
+Data: {"email": "rona+6@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2725}
 ====================
