@@ -38,7 +38,7 @@ Ensure the CSV file has appropriate column names (e.g., "email", "first_name", "
 
 Run the script:
 
-``bash
+```bash
 python main.py
 ```
 Use code with caution.
