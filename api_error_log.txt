@@ -1,0 +1,184 @@
+Email: rona+17@4sgm.com
+Error: name 'payload' is not defined
+Response: No response
+====================
+Email: rona+18@4sgm.com
+Error: name 'payload' is not defined
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:32:55
+Error: Email already exists. (email: rona+17@4sgm.com)
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:32:55
+API request failed for email: rona+17@4sgm.com. Error: name 'payload' is not defined
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:32:56
+Error: Email already exists. (email: rona+18@4sgm.com)
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:32:56
+API request failed for email: rona+18@4sgm.com. Error: name 'payload' is not defined
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:39:40
+API request failed for email: rona+19@4sgm.com. Error: name 'payload' is not defined
+Response: {"id":2698}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:39:40
+API request failed for email: rona+20@4sgm.com. Error: name 'payload' is not defined
+Response: {"id":2699}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:42:05
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:42:06
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:42:28
+Error: Email already exists.
+Response: {"id":2700}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:42:29
+Error: Email already exists.
+Response: {"id":2701}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:46:01
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:46:01
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:46:19
+Error: Email already exists.
+Response: {"id":2702}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:46:20
+Error: Email already exists.
+Response: {"id":2703}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:47:36
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:47:36
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:48:01
+Error: Email already exists.
+Response: {"id":2704}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:48:02
+Error: Email already exists.
+Response: {"id":2705}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:50:50
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:50:50
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:51:36
+Error: Email already exists.
+Response: {"id":2706}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:51:37
+Error: Email already exists.
+Response: {"id":2707}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:53:08
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:53:08
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:53:33
+Error: Email already exists.
+Response: {"id":2708}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:53:34
+Error: Email already exists.
+Response: {"id":2709}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:53:58
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:53:59
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:57:49
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:57:50
+Error: Email already exists.
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:58:08
+Error: Email already exists.
+Response: {"id":2710}
+====================
+Batch: 123 | Timestamp: 2024-03-15 19:58:09
+Error: Email already exists.
+Response: {"id":2711}
+====================
+Email: rona+31@4sgm.com
+Error: name 'payload' is not defined
+Response: No response
+====================
+Email: rona+32@4sgm.com
+Error: name 'payload' is not defined
+Response: No response
+====================
+Email: rona+33@4sgm.com
+Error: name 'payload' is not defined
+Response: {"id":2712}
+====================
+Email: rona+34@4sgm.com
+Error: name 'payload' is not defined
+Response: {"id":2713}
+====================
+Batch: 123 | Timestamp: 2024-03-15 20:03:58
+Error: Email already exists. (email: rona+33@4sgm.com)
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 20:03:58
+API request failed for email: rona+33@4sgm.com. Error: name 'payload' is not defined
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 20:03:58
+Error: Email already exists. (email: rona+34@4sgm.com)
+Response: No response
+====================
+Batch: 123 | Timestamp: 2024-03-15 20:03:58
+API request failed for email: rona+34@4sgm.com. Error: name 'payload' is not defined
+Response: No response
+====================
+Email: rona+33@4sgm.com
+Error: name 'payload' is not defined
+Response: No response
+====================
+Email: rona+34@4sgm.com
+Error: name 'payload' is not defined
+Response: No response
+====================
+Email: rona+35@4sgm.com
+Error: name 'payload' is not defined
+Response: {"id":2714}
+====================
+Email: rona+36@4sgm.com
+Error: name 'payload' is not defined
+Response: {"id":2715}
+====================
