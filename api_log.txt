@@ -1,24 +1,8 @@
-Email: rona+1@4sgm.com
-Data: {"email": "rona+1@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2720}
+2024-03-15 23:37:14 - Email: rona+7@4sgm.com
+Data: {"email": "rona+7@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2728}
 ====================
-Email: rona+2@4sgm.com
-Data: {"email": "rona+2@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2721}
-====================
-Email: rona+3@4sgm.com
-Data: {"email": "rona+3@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2722}
-====================
-Email: rona+4@4sgm.com
-Data: {"email": "rona+4@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2723}
-====================
-Email: rona+5@4sgm.com
-Data: {"email": "rona+5@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2724}
-====================
-Email: rona+6@4sgm.com
-Data: {"email": "rona+6@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
-Response: {"id":2725}
+2024-03-15 23:37:15 - Email: rona+8@4sgm.com
+Data: {"email": "rona+8@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2729}
 ====================

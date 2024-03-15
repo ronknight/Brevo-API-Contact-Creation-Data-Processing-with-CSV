@@ -2,7 +2,8 @@ import requests
 import csv
 import json
 import os
-from datetime import date
+from datetime import date, datetime  # Import both date and datetime
+
 from dotenv import load_dotenv
 
 load_dotenv()  # Load API key and base URL from .env file
@@ -21,33 +22,20 @@ def check_existing_email(email):
     try:
         response = requests.get(url, headers=headers)
 
-        # Check for successful response (200) indicating existing contact
+        # Check if the response is successful
         if response.status_code == 200:
-            if response.json():
-                print(f"Email: {email} already exists.")
-                return True  # Indicate email exists
-            else:
-                # Handle unexpected empty response for 200 (not necessarily an error)
-                print(f"Unexpected empty response for email: {email}")
-                return False  # Indicate check failed, consider logging the issue
+            print(f"API request successful for email: {email}")
+            log_error(email, f"Contact already exist: {response.text}")
 
-        # Check for specific error codes
-        elif response.status_code == 400:
-            print(f"Error checking email: {email}. Bad Request (400).")
-            return False  # Indicate check failed due to bad request
-
-        elif response.status_code == 404:
-            print(f"Email: {email} not found. Creating new contact...")
-            return False  # Indicate email not found (new contact needed)
-
-        # Handle other unexpected status codes
+            return True
         else:
-            print(f"Error checking email: {email}. Unexpected status code: {response.status_code}")
-            return False  # Indicate check failed due to unexpected error
+            print(f"Contact doesn't exist: {email}")
+            log_error(email, f"API request failed: {response.text}")
+            return False
 
     except requests.exceptions.RequestException as e:
-        print(f"Error checking email: {email}. Error: {e}")
-        return False  # Indicate check failed due to request exception
+        print(f"Request exception for email: {email}, Error: {e}")
+        return False
 
 def process_csv_data(csv_file):
     existing_emails = set()  # Create a set to store existing emails
@@ -84,13 +72,18 @@ def process_csv_data(csv_file):
                         )
 
                         response.raise_for_status()  # Raise an exception for non-200 status codes
-
                         print(f"API request successful for email: {email}")
                         with open("api_log.txt", "a") as logfile:
-                            logfile.write(f"Email: {email}\nData: {payload}\nResponse: {response.text}\n====================\n")
+                            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                            logfile.write(f"{timestamp} - Email: {email}\nData: {payload}\nResponse: {response.text}\n====================\n")
 
                     except requests.exceptions.RequestException as e:
-                        print(f"API request failed for email: {email}. Error: {e}")
+                        log_error(email, f"API request failed: {e}")
+
+def log_error(email, error_message):
+    with open("api_error_log.txt", "a") as error_log:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        error_log.write(f"{timestamp} - Email: {email}\nError: {error_message}\n====================\n")
 
 if __name__ == "__main__":
     csv_file = "data.csv"  # Replace with your CSV file path
