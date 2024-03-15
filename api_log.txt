@@ -1,0 +1,12 @@
+Email: rona+9@4sgm.com
+Data: {"email": "rona+9@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2689}
+====================
+Email: rona+12@4sgm.com
+Data: {"email": "rona+12@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2690}
+====================
+Email: rona+11@4sgm.com
+Data: {"email": "rona+11@4sgm.com", "attributes": {"FIRSTNAME": "Ron", "LASTNAME": "Reyes"}}
+Response: {"id":2691}
+====================
