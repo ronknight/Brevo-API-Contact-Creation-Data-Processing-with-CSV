@@ -69,18 +69,18 @@ This project is licensed under the MIT License (see LICENSE file for details).
 ## Example CSV Format
 The CSV file should have the following columns:
 
--email (string): The email address of the contact (required).
--first_name (string): The first name of the contact.
--last_name (string): The last name of the contact.
--sic (string): The contact's Standard Industrial Classification code (optional).
--company (string): The contact's company name (optional).
--state (string): The contact's state (optional).
--industry (string): The contact's industry (optional).
--country (string): The contact's country (optional).
--city (string): The contact's city (optional).
--zip (string): The contact's zip code (optional).
--county (string): The contact's county (optional).
--id (string): The contact's ID (optional).
+- email (string): The email address of the contact (required).
+- first_name (string): The first name of the contact.
+- last_name (string): The last name of the contact.
+- sic (string): The contact's Standard Industrial Classification code (optional).
+- company (string): The contact's company name (optional).
+- state (string): The contact's state (optional).
+- industry (string): The contact's industry (optional).
+- country (string): The contact's country (optional).
+- city (string): The contact's city (optional).
+- zip (string): The contact's zip code (optional).
+- county (string): The contact's county (optional).
+- id (string): The contact's ID (optional).
 
 ## Security Considerations
 
