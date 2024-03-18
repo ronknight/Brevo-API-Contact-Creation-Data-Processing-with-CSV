@@ -1,4 +1,0 @@
-2024-03-18 15:41:36 - Email: rona+3@4sgm.com	Error: API request failed: {"code":"document_not_found","message":"Contact does not exist"}
-====================
-2024-03-18 15:41:37 - Email: rona+4@4sgm.com	Error: API request failed: {"code":"document_not_found","message":"Contact does not exist"}
-====================
