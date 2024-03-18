@@ -1,1 +1,4 @@
 .env
+api_error_log.txt
+api_log.txt
+data.csv

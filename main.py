@@ -46,6 +46,16 @@ def process_csv_data(csv_file):
             email = row["email"]
             f_name = row["f_name"]
             l_name = row["l_name"]
+            sic = row["sic"]
+            company = row["company"]
+            state = row["state"]
+            industry = row["industry"]
+            country = row["country"]
+            city = row["city"]
+            zip = row["zip"]            
+            county = row["county"]
+            id = row["id"]
+
 
             # Check if email already found in the set
             if email not in existing_emails:
@@ -55,7 +65,17 @@ def process_csv_data(csv_file):
                         "email": email,
                         "attributes": {
                             "FIRSTNAME": f_name,
-                            "LASTNAME": l_name
+                            "LASTNAME": l_name,
+                            "SIC": sic,
+                            "COMPANY": company,
+                            "STATE": state,
+                            "INDUSTRY": industry,
+                            "COUNTRY": country,
+                            "CITY": city,
+                            "ZIP": zip,
+                            "COUNTY": county,
+                            "ID": id
+
                         },
                         # ... other fields as needed
                     })
@@ -75,7 +95,7 @@ def process_csv_data(csv_file):
                         print(f"API request successful for email: {email}")
                         with open("api_log.txt", "a") as logfile:
                             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                            logfile.write(f"{timestamp} - Email: {email}\nData: {payload}\nResponse: {response.text}\n====================\n")
+                            logfile.write(f"{timestamp} - Email: {email}\tData: {payload}\tResponse: {response.text}\n====================\n")
 
                     except requests.exceptions.RequestException as e:
                         log_error(email, f"API request failed: {e}")
@@ -83,7 +103,7 @@ def process_csv_data(csv_file):
 def log_error(email, error_message):
     with open("api_error_log.txt", "a") as error_log:
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        error_log.write(f"{timestamp} - Email: {email}\nError: {error_message}\n====================\n")
+        error_log.write(f"{timestamp} - Email: {email}\tError: {error_message}\n====================\n")
 
 if __name__ == "__main__":
     csv_file = "data.csv"  # Replace with your CSV file path

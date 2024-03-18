@@ -1,18 +1,4 @@
-Email: rona+5@4sgm.com
-Error: Contact already exist: {"email":"rona+5@4sgm.com","id":2726,"emailBlacklisted":false,"smsBlacklisted":false,"createdAt":"2024-03-15T16:13:32.904-07:00","modifiedAt":"2024-03-15T16:13:32.904-07:00","attributes":{"LASTNAME":"Reyes","FIRSTNAME":"Ron"},"listIds":[],"statistics":{}}
+2024-03-18 15:41:36 - Email: rona+3@4sgm.com	Error: API request failed: {"code":"document_not_found","message":"Contact does not exist"}
 ====================
-Email: rona+6@4sgm.com
-Error: Contact already exist: {"email":"rona+6@4sgm.com","id":2727,"emailBlacklisted":false,"smsBlacklisted":false,"createdAt":"2024-03-15T16:13:33.775-07:00","modifiedAt":"2024-03-15T16:13:33.775-07:00","attributes":{"LASTNAME":"Reyes","FIRSTNAME":"Ron"},"listIds":[],"statistics":{}}
-====================
-2024-03-15 23:36:28 - Email: rona+5@4sgm.com
-Error: Contact already exist: {"email":"rona+5@4sgm.com","id":2726,"emailBlacklisted":false,"smsBlacklisted":false,"createdAt":"2024-03-15T16:13:32.904-07:00","modifiedAt":"2024-03-15T16:13:32.904-07:00","attributes":{"LASTNAME":"Reyes","FIRSTNAME":"Ron"},"listIds":[],"statistics":{}}
-====================
-2024-03-15 23:36:28 - Email: rona+6@4sgm.com
-Error: Contact already exist: {"email":"rona+6@4sgm.com","id":2727,"emailBlacklisted":false,"smsBlacklisted":false,"createdAt":"2024-03-15T16:13:33.775-07:00","modifiedAt":"2024-03-15T16:13:33.775-07:00","attributes":{"LASTNAME":"Reyes","FIRSTNAME":"Ron"},"listIds":[],"statistics":{}}
-====================
-2024-03-15 23:37:13 - Email: rona+7@4sgm.com
-Error: API request failed: {"code":"document_not_found","message":"Contact does not exist"}
-====================
-2024-03-15 23:37:14 - Email: rona+8@4sgm.com
-Error: API request failed: {"code":"document_not_found","message":"Contact does not exist"}
+2024-03-18 15:41:37 - Email: rona+4@4sgm.com	Error: API request failed: {"code":"document_not_found","message":"Contact does not exist"}
 ====================
