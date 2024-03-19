@@ -48,6 +48,7 @@ def process_csv_data(csv_file):
             l_name = row["l_name"]
             sic = row["sic"]
             company = row["company"]
+            title = row["title"]
             state = row["state"]
             industry = row["industry"]
             country = row["country"]
@@ -68,6 +69,7 @@ def process_csv_data(csv_file):
                             "LASTNAME": l_name,
                             "SIC": sic,
                             "COMPANY": company,
+                            "TITLE": title,
                             "STATE": state,
                             "INDUSTRY": industry,
                             "COUNTRY": country,
