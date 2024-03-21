@@ -56,6 +56,9 @@ def process_csv_data(csv_file):
             zip = row["zip"]            
             county = row["county"]
             id = row["id"]
+            optin = row["optin"]
+            sms = row["sms"]
+            landline = row["landline"]
 
 
             # Check if email already found in the set
@@ -76,8 +79,10 @@ def process_csv_data(csv_file):
                             "CITY": city,
                             "ZIP": zip,
                             "COUNTY": county,
-                            "ID": id
-
+                            "ID": id,
+                            "OPT_IN": optin,
+                            "SMS": sms,
+                            "LANDLINE_NUMBER": landline
                         },
                         # ... other fields as needed
                     })
@@ -92,12 +97,17 @@ def process_csv_data(csv_file):
                             },
                             data=payload
                         )
-
-                        response.raise_for_status()  # Raise an exception for non-200 status codes
-                        print(f"API request successful for email: {email}")
-                        with open("api_log.txt", "a") as logfile:
-                            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                            logfile.write(f"{timestamp} - Email: {email}\tData: {payload}\tResponse: {response.text}\n====================\n")
+                        # Check if the response is successful
+                        if response.status_code == 400:
+                            print(f"API request failed for email: {email}")
+                            log_error(email, f"Error: {response.text}")
+                            return False
+                        else:
+                            response.raise_for_status()  # Raise an exception for non-200 status codes
+                            print(f"API request successful for email: {email}")
+                            with open("api_log.txt", "a") as logfile:
+                                timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                                logfile.write(f"{timestamp} - Email: {email}\tData: {payload}\tResponse: {response.text}\n====================\n")
 
                     except requests.exceptions.RequestException as e:
                         log_error(email, f"API request failed: {e}")
