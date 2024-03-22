@@ -2,9 +2,10 @@ import requests
 import csv
 import json
 import os
+from dotenv import load_dotenv
+
 from datetime import date, datetime  # Import both date and datetime
 
-from dotenv import load_dotenv
 
 load_dotenv()  # Load API key and base URL from .env file
 
@@ -13,6 +14,7 @@ BASE_URL = os.getenv("BASE_URL")
 today = date.today().strftime("%Y-%m-%d")  # Format date as YYYY-MM-DD
 
 def check_existing_email(email):
+    # Construct the URL for checking existing contact
     url = f"{BASE_URL}/v3/contacts/{email}?startDate={today}&endDate={today}"
     headers = {
         'Accept': 'application/json',
@@ -56,7 +58,6 @@ def process_csv_data(csv_file):
             zip = row["zip"]            
             county = row["county"]
             id = row["id"]
-
 
             # Check if email already found in the set
             if email not in existing_emails:
