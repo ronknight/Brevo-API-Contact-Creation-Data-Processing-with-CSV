@@ -1,0 +1,23 @@
+flowchart-diagram
+
+
+title Brevo API Contact Creation Data Processing with CSV
+
+// Define nodes and relationships
+Start [shape: oval, icon: flag] > Check for Existing Email [icon: mail]
+Check for Existing Email > Create New Contact [shape: diamond, icon: user-plus]: No
+Check for Existing Email > Log Existing Email [icon: file-text]: Yes
+Create New Contact > Secure Credentials and Logging [icon: lock]
+Secure Credentials and Logging > Log API Request [icon: file-text]
+Log API Request > End [shape: oval, icon: check]
+Log Existing Email > End
+
+// Define Groups
+Process each email [icon: repeat] {
+  Check for Existing Email
+  Create New Contact
+  Secure Credentials and Logging
+  Log API Request
+  Log Existing Email
+}
+

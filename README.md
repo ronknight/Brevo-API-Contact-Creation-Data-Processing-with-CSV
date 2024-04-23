@@ -76,6 +76,7 @@ While storing API keys in a .env file improves security, refer to the documentat
 ## Diagrams
 <!-- eraser-additional-files -->
 <a href="/README-Brevo API Contact Creation Data Processing with CSV-1.eraserdiagram" data-element-id="LjueM3pOSZslOxHtmEukW"><img src="/.eraser/QubUJbw5JUYWaFWjMIRj___3Jivg2tjMecMlrHwbIVIBR8f7U03___---diagram----b25973538bb6a044d3900b4fa9f5c081-Brevo-API-Contact-Creation-Data-Processing-with-CSV.png" alt="" data-element-id="LjueM3pOSZslOxHtmEukW" /></a>
+<a href="/README-Brevo API Contact Creation Data Processing with CSV-2.eraserdiagram" data-element-id="XB8mieJ4-52HvhBzkZk0c"><img src="/.eraser/QubUJbw5JUYWaFWjMIRj___3Jivg2tjMecMlrHwbIVIBR8f7U03___---diagram----b68338fe00b8b41a99bf7e681ffac441-Brevo-API-Contact-Creation-Data-Processing-with-CSV.png" alt="" data-element-id="XB8mieJ4-52HvhBzkZk0c" /></a>
 <!-- end-eraser-additional-files -->
 <!-- end-eraser-additional-content -->
 <!--- Eraser file: https://app.eraser.io/workspace/QubUJbw5JUYWaFWjMIRj --->
