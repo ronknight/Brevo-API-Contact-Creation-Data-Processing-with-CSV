@@ -1,0 +1,32 @@
+cloud-architecture-diagram
+
+
+title Brevo API Contact Creation Data Processing with CSV
+
+// Define groups and nodes
+CSV Data {
+  Email [icon: file-text]
+  First Name [icon: file-text]
+  Last Name [icon: file-text]
+  Additional Info [icon: file-text]
+}
+API Interaction {
+  Check Existing Email [icon: api]
+  Create New Contact [icon: api]
+}
+Logging {
+  API Log [icon: file-text]
+  Error Log [icon: file-text]
+}
+Environment {
+  API Credentials [icon: lock]
+}
+
+// Define connections where none are between a parent group and its own child node
+Email > Check Existing Email
+Check Existing Email > Create New Contact
+Create New Contact > API Log
+Create New Contact > Error Log
+API Credentials > Check Existing Email
+API Credentials > Create New Contact
+
