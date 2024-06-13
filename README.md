@@ -1,7 +1,7 @@
 <p><a target="_blank" href="https://app.eraser.io/workspace/QubUJbw5JUYWaFWjMIRj" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
 <h1 align="center"><a href="https://github.com/ronknight/Brevo-API-Contact-Creation-Data-Processing-with-CSV">Brevo API Contact Creation Data Processing with CSV</a></h1>
-<h4 align="center"><a href="https://github.com/ronknight/Brevo-API-Contact-Creation-Data-Processing-with-CSV">This file provides an overview of the Python program for processing CSV data containing contact information and interacting with an API for contact management.</h4>
+<h4 align="center">This file provides an overview of the Python program for processing CSV data containing contact information and interacting with an API for contact management.</h4>
 
 <p align="center">
 <a href="https://twitter.com/PinoyITSolution"><img src="https://img.shields.io/twitter/follow/PinoyITSolution?style=social"></a>
